@@ -246,8 +246,8 @@
 					$.each( data.invalidFields, function( i, n ) {
 						$( n.into, $form ).each( function() {
 							wpcf7.notValidTip( this, n.message );
-							$( '.wpcf7-form-control', this ).addClass( 'wpcf7-not-valid' );
-							$( '[aria-invalid]', this ).attr( 'aria-invalid', 'true' );
+							// $( '.wpcf7-form-control', this ).addClass( 'wpcf7-not-valid' );
+							// $( '[aria-invalid]', this ).attr( 'aria-invalid', 'true' );
 						} );
 					} );
 
