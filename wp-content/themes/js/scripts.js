@@ -55,7 +55,7 @@ $(document).ready(function () {
 			$("#area").html('Площадь ' + ui.value + 'м<sup>2</sup>');
 
 			var price = calc_price_ceiling(ui.value);
-			$('.calculator-price').text('от ' + price + ' руб.');
+			$('.calculator-price').text('от ' + price + ' zł.');
 
 			var profile = profile_pvh(ui.value);
 			$('.profile').text('Профиль ПВХ ' + profile + 'м');
