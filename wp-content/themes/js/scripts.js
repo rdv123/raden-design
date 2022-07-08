@@ -459,7 +459,7 @@ function setCookie(name, value, days) {
 
 
 
-mounth = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+mounth = ['styczeń', 'luty', 'marzec', 'kwiecień', 'maj', 'czerwiec', 'lipiec', 'sierpień', 'wrzesień', 'październik', 'listopad', 'grudzień'];
 dateTo = Date.parse(new Date()) + 5 * 24 * 60 * 60 * 1000;
 
 cookieDateTo = getCookie("cookieDateTo");
